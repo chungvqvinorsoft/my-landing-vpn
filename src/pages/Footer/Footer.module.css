@@ -1,0 +1,84 @@
+.footer {
+    position: relative;
+}
+
+.button {
+    width: 250px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.wraper-button {
+    height: 100%;
+}
+
+.register {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    top: -354px;
+    padding: 64px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social {
+    margin-top: 16px;
+}
+
+.lead {
+    max-width: 340px;
+}
+
+.list-header {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.list-item {
+    border-block-end: none !important
+}
+
+.list>div {
+    border-block-end: none !important
+}
+
+@media (max-width: 900px) {
+    .register {
+        top: -400px;
+    }
+}
+@media (max-width: 768px) {
+    .footer-content {
+        margin-top: 100px;
+    }
+    .button {
+        width: 120px;
+    }
+    .register {
+        padding: 0;
+    }
+}
+@media (max-width: 568px) {
+    .footer-content {
+        margin-top: 150px;
+    }
+    
+}

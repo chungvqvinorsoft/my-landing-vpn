@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('./access//fonts/Rubik-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('./access//fonts/Rubik-VariableFont_wght.ttf');
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', "Rubik"
+    monospace;
+}
+
+section {
+  padding-top: 64px;
+}

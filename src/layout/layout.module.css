@@ -1,0 +1,30 @@
+.layout {
+    max-width: 1440px;
+    margin: auto;
+    background-color: white !important;
+}
+
+.content {
+    padding: 0 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+}
+
+
+.footer {
+    max-width: 1440px;
+    margin: auto;
+    background-color: transparent !important;
+    padding: 0 50px;
+    margin-top: 200px;
+}
+

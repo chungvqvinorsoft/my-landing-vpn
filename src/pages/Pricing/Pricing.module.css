@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.pricing {
+    margin-bottom: 64px;
+}

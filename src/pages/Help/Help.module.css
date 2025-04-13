@@ -1,0 +1,17 @@
+.header {
+    max-width: 383px;
+    text-align: center;
+    margin: auto;
+}
+
+.title {
+    max-width: 556px;
+    text-align: center;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.help {
+    padding-bottom: 200px;
+}

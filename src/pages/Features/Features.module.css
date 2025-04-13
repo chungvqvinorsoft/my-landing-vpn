@@ -1,0 +1,15 @@
+.image {
+    width: 72%;
+}
+
+.row {
+    margin-bottom: 32px;
+}
+
+
+.feature-item {
+    justify-content: flex-start !important;
+    gap: 12px;
+    border-block-end: none !important;
+    flex-wrap: nowrap !important;
+}

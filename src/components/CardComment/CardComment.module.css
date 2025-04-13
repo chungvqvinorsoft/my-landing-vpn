@@ -1,0 +1,17 @@
+.card {
+    width: 400px;
+    height: 230px;
+    text-overflow: ellipsis;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #0B132A;
+    margin: 0;
+}
+
+.address {
+    margin: 0;
+}
